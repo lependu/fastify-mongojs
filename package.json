@@ -1,0 +1,37 @@
+{
+  "name": "fastify-mongojs",
+  "version": "0.1.0",
+  "description": "Fastify plugin for [mongojs](https://github.com/mafintosh/mongojs)",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "coverage": "tap test.js --cov --no-browser --coverage-report lcov",
+    "lint": "standard --fix",
+    "test": "standard --fix && tap test.js --cov --no-browser"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lependu/fastify-mongojs.git"
+  },
+  "keywords": [
+    "fastify",
+    "mongojs",
+    "fastify-plugin",
+    "mongodb"
+  ],
+  "author": "Ákos Kovács <lependu@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lependu/fastify-mongojs/issues"
+  },
+  "homepage": "https://github.com/lependu/fastify-mongojs#readme",
+  "devDependencies": {
+    "standard": "^11.0.1",
+    "tap": "^12.0.1"
+  },
+  "dependencies": {
+    "fastify": "^1.9.0",
+    "fastify-plugin": "^1.2.0",
+    "mongojs": "^2.6.0"
+  }
+}
