@@ -6,20 +6,31 @@ const mongojs = require('mongojs')
 const fastifyMongojs = function (instance, opts, next) {
   const options = Object.assign({}, opts)
 
-  const client = opts.client || ''
-  delete opts.client
+  const name = options.name || 'mongo'
+  delete options.name
 
-  const collections = opts.collections || []
-  delete opts.collections
+  if (typeof instance[name] !== 'undefined') {
+    return next(new Error(`Decorator ${name} has registered`))
+  }
 
-  const db = mongojs(client, collections, opts)
+  if (typeof options.url === 'undefined') {
+    return next(new Error('url option is mandatory'))
+  }
 
-  db.on('error', function (err) {
+  const url = options.url
+  delete options.url
+
+  const collections = options.collections || []
+  delete options.collections
+
+  const db = mongojs(url, collections, options)
+
+  db.on('error', err => {
     return next(err)
   })
 
-  instance.decorate('mongo', db)
-  instance.addHook('onClose', instance => instance.mongo.close())
+  instance.decorate(name, db)
+  instance.addHook('onClose', instance => instance[name].close())
   next()
 }
 
