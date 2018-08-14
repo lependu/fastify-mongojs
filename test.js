@@ -7,7 +7,7 @@ const { test } = tap
 test('Decorates fastify instance with db | without name', t => {
   t.plan(4)
 
-  register(t, { url: 'db', collections: ['a']}, function (err, fastify) {
+  register(t, { url: 'db', collections: ['a'] }, function (err, fastify) {
     t.error(err)
     t.equal(typeof fastify.mongo, 'object')
 

@@ -1,0 +1,16 @@
+language: node_js
+
+node_js:
+  - "10"
+  - "8"
+  - "6"
+
+script: standard && tap test.js
+
+services:
+  - mongodb
+
+notifications:
+  email:
+    on_success: never
+    on_failure: never
