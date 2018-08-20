@@ -2,7 +2,6 @@
   "name": "fastify-mongojs",
   "version": "0.1.0",
   "description": "Fastify plugin for [mongojs](https://github.com/mafintosh/mongojs)",
-  "private": true,
   "main": "index.js",
   "scripts": {
     "coverage": "tap test.js --cov --no-browser --coverage-report lcov",
