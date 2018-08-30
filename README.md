@@ -5,7 +5,7 @@ Simple wrapper around [mongojs](https://github.com/mafintosh/mongojs) to share c
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 [![Build Status](https://travis-ci.org/lependu/fastify-mongojs.svg?branch=master)](https://travis-ci.org/lependu/fastify-mongojs)
 [![Known Vulnerabilities](https://snyk.io/test/github/lependu/fastify-mongojs/badge.svg)](https://snyk.io/test/github/lependu/fastify-mongojs)
-[![Coverage Status](https://coveralls.io/repos/github/lependu/fastify-mongojs/badge.svg?branch=master)](https://coveralls.io/github/lependu/fastify-mongojs?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/lependu/fastify-mongojs/badge.svg?branch=master)](https://coveralls.io/github/lependu/fastify-mongojs?branch=master) [![Greenkeeper badge](https://badges.greenkeeper.io/lependu/fastify-mongojs.svg)](https://greenkeeper.io/)
 
 ## Install
 ```
