@@ -1,6 +1,7 @@
 # fastify-mongojs
 
-Simple wrapper around [mongojs](https://github.com/mafintosh/mongojs) to share common connection pool across [Fastify](https://github.com/fastify/fastify) server. This project is **experimental** if you need something stable, take a look at [fastify-mongodb](https://github.com/fastify/fastify-mongodb)  
+Simple wrapper around [mongojs](https://github.com/mafintosh/mongojs) to share common connection pool across [Fastify](https://github.com/fastify/fastify) server.  
+:warning: This project is **experimental** if you need something stable, take a look at [fastify-mongodb](https://github.com/fastify/fastify-mongodb)  
 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 [![Build Status](https://travis-ci.org/lependu/fastify-mongojs.svg?branch=master)](https://travis-ci.org/lependu/fastify-mongojs)
