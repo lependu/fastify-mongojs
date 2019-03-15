@@ -29,7 +29,7 @@
     "tap": "^12.0.1"
   },
   "dependencies": {
-    "fastify": "^1.9.0",
+    "fastify": "^2.1.0",
     "fastify-plugin": "^1.2.0",
     "mongojs": "^2.6.0"
   }
