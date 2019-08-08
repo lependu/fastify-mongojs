@@ -26,11 +26,16 @@
   "homepage": "https://github.com/lependu/fastify-mongojs#readme",
   "devDependencies": {
     "standard": "^12.0.1",
-    "tap": "^12.0.1"
+    "tap": "^12.7.0"
   },
   "dependencies": {
     "fastify": "^1.9.0",
     "fastify-plugin": "^1.2.0",
     "mongojs": "^2.6.0"
+  },
+  "greenkeeper": {
+    "ignore": [
+      "tap"
+    ]
   }
 }
