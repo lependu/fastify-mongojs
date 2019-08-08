@@ -29,12 +29,13 @@
     "tap": "^12.7.0"
   },
   "dependencies": {
-    "fastify": "^1.9.0",
-    "fastify-plugin": "^1.2.0",
+    "fastify": "^1.14.7",
+    "fastify-plugin": "^1.6.0",
     "mongojs": "^2.6.0"
   },
   "greenkeeper": {
     "ignore": [
+      "fastify",
       "tap"
     ]
   }
