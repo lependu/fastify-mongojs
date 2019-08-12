@@ -1,6 +1,6 @@
 {
   "name": "fastify-mongojs",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Fastify plugin for [mongojs](https://github.com/mafintosh/mongojs)",
   "main": "index.js",
   "scripts": {
