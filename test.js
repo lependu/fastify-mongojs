@@ -128,7 +128,7 @@ test('Handles mongojs error', t => {
 
 function register (t, options, callback) {
   const fastify = Fastify()
-  t.teardown(() => fastify.close())
+  t.teardown(() => fastify.close.bind(fastify))
 
   fastify.register(plugin, options)
     .ready(err => callback(err, fastify))
