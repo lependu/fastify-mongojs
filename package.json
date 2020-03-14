@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/lependu/fastify-mongojs#readme",
   "devDependencies": {
-    "standard": "^13.1.0",
+    "standard": "^14.3.2",
     "tap": "^12.7.0"
   },
   "dependencies": {
